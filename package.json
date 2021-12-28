@@ -1,0 +1,19 @@
+{
+  "name": "signalwire-relay-menuselect",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Proof of concept using SignalWire's Relay API.  Enables for an end user to dial a number, receive a menu selection, and select using voice or number pad.  After selection, an audio will play.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js && node fileserver.js"
+  },
+  "author": "Chue Shee Vang",
+  "license": "ISC",
+  "dependencies": {
+    "@signalwire/node": "^2.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
